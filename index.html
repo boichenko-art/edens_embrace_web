@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eden's Embrace | A Journey Through the Secret Paths of Intimacy</title>
+    <meta name="description" content="An intimate digital card game for couples. Face the temptation or stay pure until the end.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'deep-green': '#064e3b',
+                        'rich-gold': '#d4af37',
+                        'cream': '#fcfbf4',
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['"Inter"', 'sans-serif'],
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 1s ease-out',
+                        'float': 'float 6s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0', transform: 'translateY(10px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        },
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Lemon Squeezy -->
+    <script src="https://app.lemonsqueezy.com/js/lemon.js" defer></script>
+
+    <style>
+        /* Custom Utilities */
+        .glass-panel {
+            background: rgba(6, 78, 59, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .gold-border-glow {
+            box-shadow: 0 0 10px rgba(212, 175, 55, 0.1);
+            transition: all 0.4s ease;
+        }
+
+        .gold-border-glow:hover {
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+            border-color: rgba(212, 175, 55, 0.8);
+        }
+
+        .text-shadow-gold {
+            text-shadow: 0 2px 10px rgba(212, 175, 55, 0.1);
+        }
+
+        body {
+            background-color: #064e3b;
+            background-image:
+                radial-gradient(at 0% 0%, rgba(212, 175, 55, 0.05) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(0, 0, 0, 0.4) 0px, transparent 50%);
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body class="bg-deep-green text-cream font-sans antialiased overflow-x-hidden">
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col justify-center items-center px-6 py-20 relative overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <!-- decorative elements -->
+            <div class="absolute top-[10%] left-[5%] w-64 h-64 bg-rich-gold/5 rounded-full blur-3xl animate-float"></div>
+            <div class="absolute bottom-[10%] right-[5%] w-96 h-96 bg-black/20 rounded-full blur-3xl animate-float" style="animation-delay: -2s;"></div>
+        </div>
+
+        <div class="relative z-10 max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
+            <div class="mb-4 inline-block">
+                <span class="px-4 py-1 border border-rich-gold/30 rounded-full text-xs uppercase tracking-[0.2em] text-rich-gold/80 bg-black/10 backdrop-blur-sm">
+                    Est. 2024
+                </span>
+            </div>
+
+            <h1 class="font-serif text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight text-shadow-gold leading-tight">
+                Eden’s <span class="text-rich-gold italic">Embrace</span>
+            </h1>
+
+            <p class="text-xl md:text-2xl font-light text-cream/80 max-w-2xl mx-auto leading-relaxed border-t border-b border-rich-gold/20 py-6 mt-6">
+                A Journey Through the Secret Paths of Intimacy
+            </p>
+
+            <p class="text-base md:text-lg text-cream/60 max-w-lg mx-auto">
+                Welcome to the Garden, where every choice has a price. Face the temptation or stay pure until the end.
+            </p>
+
+            <div class="pt-8">
+                <a href="https://store.lemonsqueezy.com/checkout/buy/XYZ"
+                   class="lemonsqueezy-button inline-block bg-rich-gold/10 hover:bg-rich-gold/20 border border-rich-gold text-rich-gold px-8 py-4 text-sm uppercase tracking-widest transition-all duration-300 hover:scale-105 active:scale-95 backdrop-blur-md">
+                    Unlock the Full Collection
+                </a>
+            </div>
+        </div>
+
+        <div class="absolute bottom-10 left-0 right-0 text-center animate-bounce opacity-50">
+            <span class="text-rich-gold text-2xl">↓</span>
+        </div>
+    </section>
+
+    <!-- The Four Levels Section -->
+    <section class="py-24 px-6 relative">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 space-y-4">
+                <h2 class="font-serif text-4xl md:text-5xl text-rich-gold">The Four Levels of Temptation</h2>
+                <div class="w-24 h-px bg-rich-gold/30 mx-auto"></div>
+                <p class="text-cream/70 max-w-xl mx-auto italic">Step into the garden and choose your intensity.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+                <!-- Green Level -->
+                <div class="group glass-panel rounded-lg p-8 relative overflow-hidden transition-all duration-500 hover:scale-105 hover:-translate-y-2 cursor-pointer gold-border-glow h-96 flex flex-col justify-between">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-green-500/50"></div>
+                    <div>
+                        <span class="text-xs uppercase tracking-widest text-green-400 mb-2 block">Level I</span>
+                        <h3 class="font-serif text-2xl text-cream mb-4 group-hover:text-green-300 transition-colors">The Awakening</h3>
+                        <p class="text-sm text-cream/70 leading-relaxed">
+                            Gentle quests to spark connection. Perfect for starting the journey and breaking the ice with tenderness.
+                        </p>
+                    </div>
+                    <div class="opacity-50 group-hover:opacity-100 transition-opacity flex justify-center mt-4">
+                       <div class="w-8 h-8 rounded-full border border-green-400/30 flex items-center justify-center text-green-400">🌱</div>
+                    </div>
+                </div>
+
+                <!-- Golden Level -->
+                <div class="group glass-panel rounded-lg p-8 relative overflow-hidden transition-all duration-500 hover:scale-105 hover:-translate-y-2 cursor-pointer gold-border-glow h-96 flex flex-col justify-between">
+                   <div class="absolute top-0 left-0 w-full h-1 bg-yellow-400/50"></div>
+                    <div>
+                        <span class="text-xs uppercase tracking-widest text-yellow-400 mb-2 block">Level II</span>
+                        <h3 class="font-serif text-2xl text-cream mb-4 group-hover:text-yellow-300 transition-colors">The Playful Spark</h3>
+                        <p class="text-sm text-cream/70 leading-relaxed">
+                            Lighthearted dares and deeper exploration. Laughter and curiosity guide your path here.
+                        </p>
+                    </div>
+                    <div class="opacity-50 group-hover:opacity-100 transition-opacity flex justify-center mt-4">
+                        <div class="w-8 h-8 rounded-full border border-yellow-400/30 flex items-center justify-center text-yellow-400">✨</div>
+                     </div>
+                </div>
+
+                <!-- Red Level -->
+                <div class="group glass-panel rounded-lg p-8 relative overflow-hidden transition-all duration-500 hover:scale-105 hover:-translate-y-2 cursor-pointer gold-border-glow h-96 flex flex-col justify-between">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-red-500/50"></div>
+                    <div>
+                        <span class="text-xs uppercase tracking-widest text-red-500 mb-2 block">Level III</span>
+                        <h3 class="font-serif text-2xl text-cream mb-4 group-hover:text-red-400 transition-colors">The Serpent’s Fire</h3>
+                        <p class="text-sm text-cream/70 leading-relaxed">
+                            Intense challenges that push boundaries. The heat rises as you test your limits together.
+                        </p>
+                    </div>
+                    <div class="opacity-50 group-hover:opacity-100 transition-opacity flex justify-center mt-4">
+                        <div class="w-8 h-8 rounded-full border border-red-500/30 flex items-center justify-center text-red-500">🔥</div>
+                     </div>
+                </div>
+
+                <!-- Black Level -->
+                <div class="group glass-panel rounded-lg p-8 relative overflow-hidden transition-all duration-500 hover:scale-105 hover:-translate-y-2 cursor-pointer gold-border-glow h-96 flex flex-col justify-between">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-neutral-900/50"></div>
+                    <div>
+                        <span class="text-xs uppercase tracking-widest text-neutral-500 mb-2 block">Level IV</span>
+                        <h3 class="font-serif text-2xl text-cream mb-4 group-hover:text-neutral-400 transition-colors">The Forbidden Path</h3>
+                        <p class="text-sm text-cream/70 leading-relaxed">
+                            The ultimate level of surrender and intimacy. Only for those ready to bare their souls completely.
+                        </p>
+                    </div>
+                    <div class="opacity-50 group-hover:opacity-100 transition-opacity flex justify-center mt-4">
+                        <div class="w-8 h-8 rounded-full border border-white/30 flex items-center justify-center text-white">🌑</div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Play Section -->
+    <section class="py-24 px-6 bg-black/20">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="font-serif text-3xl md:text-4xl text-cream">The Rules of the Journey</h2>
+                <div class="w-16 h-px bg-rich-gold/50 mx-auto mt-6"></div>
+            </div>
+
+            <div class="space-y-8 relative before:absolute before:left-[27px] md:before:left-1/2 before:top-0 before:bottom-0 before:w-px before:bg-rich-gold/20">
+                <!-- Step 1 -->
+                <div class="relative flex flex-col md:flex-row items-center gap-8">
+                    <div class="md:w-1/2 flex justify-end text-right order-2 md:order-1">
+                        <div class="glass-panel p-6 rounded-lg border border-rich-gold/10 max-w-md w-full">
+                            <h3 class="font-serif text-xl text-rich-gold mb-2">Step 1: The Roll of Fate</h3>
+                            <p class="text-sm text-cream/70">Begin with a roll of the dice to determine how many steps you take along the Secret Paths.</p>
+                        </div>
+                    </div>
+                    <div class="absolute left-0 med:left-1/2 -ml-[4px] w-14 h-14 rounded-full bg-deep-green border border-rich-gold flex items-center justify-center text-rich-gold z-10 md:static order-1">
+                        <span class="font-serif text-xl">I</span>
+                    </div>
+                    <div class="md:w-1/2 order-3"></div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative flex flex-col md:flex-row items-center gap-8">
+                    <div class="md:w-1/2 order-3 md:order-1"></div>
+                     <div class="absolute left-0 med:left-1/2 -ml-[4px] w-14 h-14 rounded-full bg-deep-green border border-rich-gold flex items-center justify-center text-rich-gold z-10 md:static order-1">
+                        <span class="font-serif text-xl">II</span>
+                    </div>
+                    <div class="md:w-1/2 flex justify-start text-left order-2 md:order-3">
+                        <div class="glass-panel p-6 rounded-lg border border-rich-gold/10 max-w-md w-full">
+                            <h3 class="font-serif text-xl text-rich-gold mb-2">Step 2: The Serpent’s Whisper</h3>
+                            <p class="text-sm text-cream/70">Land on a square to reveal your task—a test of honesty, a bold dare, or deep intimacy.</p>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Step 3 -->
+                 <div class="relative flex flex-col md:flex-row items-center gap-8">
+                    <div class="md:w-1/2 flex justify-end text-right order-2 md:order-1">
+                        <div class="glass-panel p-6 rounded-lg border border-rich-gold/10 max-w-md w-full">
+                            <h3 class="font-serif text-xl text-rich-gold mb-2">Step 3: Choice & Reward</h3>
+                            <p class="text-sm text-cream/70">Complete the task to earn <strong class="text-red-400/90 font-medium">Sin Points</strong>, or refuse and face <strong class="text-neutral-400 font-medium">Retribution</strong>—a punishment of your partner's choosing.</p>
+                        </div>
+                    </div>
+                    <div class="absolute left-0 med:left-1/2 -ml-[4px] w-14 h-14 rounded-full bg-deep-green border border-rich-gold flex items-center justify-center text-rich-gold z-10 md:static order-1">
+                        <span class="font-serif text-xl">III</span>
+                    </div>
+                    <div class="md:w-1/2 order-3"></div>
+                </div>
+
+                 <!-- Step 4 -->
+                 <div class="relative flex flex-col md:flex-row items-center gap-8">
+                    <div class="md:w-1/2 order-3 md:order-1"></div>
+                     <div class="absolute left-0 med:left-1/2 -ml-[4px] w-14 h-14 rounded-full bg-deep-green border border-rich-gold flex items-center justify-center text-rich-gold z-10 md:static order-1">
+                        <span class="font-serif text-xl">IV</span>
+                    </div>
+                    <div class="md:w-1/2 flex justify-start text-left order-2 md:order-3">
+                        <div class="glass-panel p-6 rounded-lg border border-rich-gold/10 max-w-md w-full">
+                            <h3 class="font-serif text-xl text-rich-gold mb-2">Step 4: The Ultimate Prize</h3>
+                             <p class="text-sm text-cream/70">The winner earns the right to have one secret wish fulfilled that their partner cannot refuse.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Offer Section -->
+    <section class="py-24 px-6">
+        <div class="max-w-3xl mx-auto glass-panel rounded-2xl p-10 md:p-14 text-center border-t border-rich-gold/40 shadow-2xl relative overflow-hidden">
+            <!-- Glow background effect -->
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-rich-gold/5 blur-3xl rounded-full -z-10"></div>
+
+            <h2 class="font-serif text-4xl md:text-5xl text-rich-gold mb-6">One Collection. <br/>Endless Exploration.</h2>
+
+            <p class="text-lg text-cream/80 mb-10 max-w-lg mx-auto leading-relaxed">
+                Get the complete digital set, including all 4 levels (Green, Golden, Red, Black) and the "Rules of the Journey" PDF.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://store.lemonsqueezy.com/checkout/buy/XYZ" class="lemonsqueezy-button w-full sm:w-auto bg-rich-gold text-deep-green font-semibold px-8 py-4 rounded-sm hover:bg-yellow-500 transition-colors shadow-lg hover:shadow-rich-gold/20 tracking-wider uppercase text-sm">
+                    Get the Full Set Now
+                </a>
+            </div>
+
+            <p class="mt-6 text-xs text-cream/40 uppercase tracking-widest">Instant Digital Download</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 border-t border-rich-gold/10 bg-black/20">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-center md:text-left">
+                <h4 class="font-serif text-xl text-rich-gold">Eden’s Embrace</h4>
+                <p class="text-xs text-cream/40 mt-1">© 2024 All rights reserved.</p>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <a href="#" class="text-cream/60 hover:text-rich-gold transition-colors" aria-label="Instagram">
+                    <!-- Instagram Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
